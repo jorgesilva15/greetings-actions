@@ -5,9 +5,9 @@ name: Simple Pipe
 
 on:
   push:
-    branches: [ debuh ]
+    branches: [ debug ]
   pull_request:
-    branches: [ debuh ]
+    branches: [ debug ]
   workflow_dispatch:
     inputs:
       myValues:
